@@ -359,7 +359,7 @@
                                 'index':_index,
                                 'id':ind,
                                 'ip':ip,
-                                'port':port+( service!= "unknown" ? "("+service+")" : ""),
+                                'port':port+( service!= "unknown" && service.length > 0 ? "("+service+")" : ""),
                                 'name':name,
                                 'data':data
                             })
