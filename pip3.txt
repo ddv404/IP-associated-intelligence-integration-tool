@@ -1,0 +1,18 @@
+web service
+pip3 install fastapi
+pip3 install uvicorn
+pip3 install python-jose
+pip3 install python-multipart
+pip3 install pymysql
+
+
+node
+pip3 install requests
+pip3 install gevent
+pip3 install pyOpenSSL
+pip3 install beautifulsoup4
+pip3 install lxml
+pip3 install html5lib
+pip3 install watcherlab-ti-client-python
+pip3 install shodan
+

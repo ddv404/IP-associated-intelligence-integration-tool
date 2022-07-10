@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="layui-v2.6.8/layui/css/layui.css">
+    <script src="layui-v2.6.8/layui/layui.js"></script>
+    <script src="base64.js"></script>
+    <script src="jq.js"></script>
+    <title>IP关联情报集成工具</title>
+</head>
+<body>
+    <div style="position: absolute;
+    padding: 20px;
+    padding-right: 80px;
+    top: 10%;
+    left: 50%;
+    margin-left: -170px;
+    padding-top: 30px;
+    font-size: 30px;">
+        IP关联情报集成工具
+    </div>
+    <div style=" position: absolute;
+    height: 150px;
+    width: 340px;
+    padding: 20px;
+    padding-right: 80px;
+    top: 50%;
+    margin-top: -100px;
+    left: 50%;
+    margin-left: -170px;
+    padding-top: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;">
+
+        <form class="layui-form" action="" lay-filter="example">
+            <div class="layui-form-item">
+              <label class="layui-form-label">账号</label>
+              <div class="layui-input-block">
+                <input type="text" id="username" name="username" lay-verify="title" autocomplete="off" placeholder="请输入账号" class="layui-input">
+              </div>
+            </div>
+            <div class="layui-form-item">
+              <label class="layui-form-label">密码</label>
+              <div class="layui-input-block">
+                <input type="password" id="password" name="password" placeholder="请输入密码" autocomplete="off" class="layui-input">
+              </div>
+            </div>
+            <div style="text-align: center;">
+                <button type="button" class="layui-btn layui-btn-primary" onclick="login()">登录</button>
+            </div>
+            
+        </form>    
+
+    </div>
+      <script>
+
+        function login(){
+            var username = $("#username").val()
+            var password = $("#password").val()
+            if(username.length == 0){
+                layer.msg('账号不能为空')
+                return
+            }else if (password.length == 0){
+                layer.msg('密码不能为空')
+                return
+            }
+
+            
+            send('login',{
+                'username':username,
+                'password':password
+            }
+            ,function(data){
+                console.log('success')
+                console.log(data)
+                
+                if (data['state'] == 'fail'){
+                    layer.msg(data['message'])
+                }else if (data['state'] == 'success'){
+                    var message = data['message']
+                    var token = message['token_type'] +' '+message['access_token']
+                    localStorage.setItem('token',token)
+                    window.location.href = "/html/index.html";
+                }
+            },function(e){
+                
+                
+            })
+
+
+
+
+        }
+
+        var url = '/web/login'
+        function send(api,data,succ,err){
+            var data_base64 = Base64.encode(JSON.stringify(data)); 
+            var params = new URLSearchParams();
+            params.append('api',api);
+            params.append('data',data_base64);
+
+            $.ajax({
+                type: "post",
+                contentType: "application/x-www-form-urlencoded",
+                dataType: 'json',
+                url: url,
+                data: params.toString(),
+                success: function (data) {
+                    succ(data)
+                },
+                complete: function (XMLHttpRequest, textStatus) {
+                },
+                error: function (e) {
+                    err(e)   
+                    layer.close(index);
+                }
+            });
+        }
+      </script>
+</body>
+</html>

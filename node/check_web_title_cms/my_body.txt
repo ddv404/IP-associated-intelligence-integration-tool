@@ -1,0 +1,2107 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+		<meta content="telephone=no,email=no" name="format-detection" />
+		<link type="image/x-icon" href="/r/cms/www/images/favicon.ico" rel="icon">
+		<title>中意人寿保险有限公司- 大病保险，境外旅游保险，大病医疗保险，商业医疗保险，境外医疗保险，交通意外保险</title>
+<meta name="keywords" content="大病保险，境外旅游保险，大病医疗保险，商业医疗保险，境外医疗保险，交通意外保险">
+<meta name="description" content="中意人寿，中国加入WTO后首家获准成立的中外合资保险公司。24小时网上在线保险购买平台，涵盖大病保险，境外旅游保险，大病医疗保险，商业医疗保险，境外医疗保险，交通意外保险。秉承“以客为尊”理念,提供一流保险公司服务。">
+		<link rel="stylesheet" href="/r/cms/www/css/bootstrap.css" />
+		<link type="text/css" rel="stylesheet" href="/r/cms/www/css/jquery.mmenu.css" />
+		
+<link rel="stylesheet" href="/r/cms/www/css/idangerous.swiper2.7.6.css">
+		<link rel="stylesheet" href="/r/cms/www/css/reset.css" />
+		<link rel="stylesheet" href="/r/cms/www/css/icon_font.css" />
+		<link rel="stylesheet" href="/r/cms/www/css/style_xs.css" />
+		<link rel="stylesheet" href="/r/cms/www/css/style_sm.css" />
+		<link rel="stylesheet" href="/r/cms/www/css/style_md.css" />
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="/r/cms/www/js/html5shiv.min.js"></script>
+      <script src="/r/cms/www/js/respond.min.js"></script>
+  
+    <![endif]-->
+<script src="//api.html5media.info/1.2.2/html5media.min.js"></script>
+	</head>
+
+	<body class="zy">
+		<div id="page">
+<!--mobile 移动导航-->
+<nav id="menu" class="menu">
+	<div class="mobile_nav">
+		<ul class="nav_section">
+
+			<li class="Selected">
+				<a href="/">首页</a>
+			</li>
+			 
+			<li>
+				<a href="javascript:;">关于中意</a> 
+					<ul class="second_menu">
+
+						 
+						<li>
+
+								<a href="/Overview/">概况</a>  
+
+						</li>
+						
+						<li>
+							<a href="javascript:;">股东</a> 
+								<ul class="second_menu">
+									 
+									<li>
+										<a href="/sytrq/">中油资本</a>
+									</li>
+									
+									<li>
+										<a href="/ydlzl/">意大利忠利保险有限公司</a>
+									</li>
+									 
+								</ul>
+								 
+
+						</li>
+						
+						<li>
+
+								<a href="/subsidiary/">子公司</a>  
+
+						</li>
+						
+						<li>
+
+								<a href="/Culture/">文化</a>  
+
+						</li>
+						
+						<li>
+							<a href="javascript:;">关爱</a> 
+								<ul class="second_menu">
+									 
+									<li>
+										<a href="/gajs/">关爱精神</a>
+									</li>
+									
+									<li>
+										<a href="/responsibility/">企业社会责任</a>
+									</li>
+									 
+								</ul>
+								 
+
+						</li>
+						
+						<li>
+
+								<a href="/honor/">荣誉</a>  
+
+						</li>
+						
+						<li>
+
+								<a href="/notepad/index.html">大事记</a>  
+
+						</li>
+						
+						<li>
+							<a href="javascript:;">新闻与公告</a> 
+								<ul class="second_menu">
+									 
+									<li>
+										<a href="/Media/">媒体报道</a>
+									</li>
+									
+									<li>
+										<a href="/newxw/">新闻</a>
+									</li>
+									
+									<li>
+										<a href="/newgg/">公告</a>
+									</li>
+									 
+								</ul>
+								 
+
+						</li>
+						
+						<li>
+
+								<a href="/ContactUs11/20181029/6470.html">联系我们</a>  
+
+						</li>
+						 
+
+					</ul> 
+
+			</li>
+			
+			<li>
+				<a href="javascript:;">保险产品</a> 
+					<ul class="second_menu">
+
+						 
+						<li>
+							<a href="javascript:;">个人保险</a> 
+								<ul class="second_menu">
+									 
+									<li>
+										<a href="/cpsxbz/">寿险保障</a>
+									</li>
+									
+									<li>
+										<a href="/cpjbbz/">疾病保障</a>
+									</li>
+									
+									<li>
+										<a href="/ylbzz/">医疗保障</a>
+									</li>
+									
+									<li>
+										<a href="/ywbzz/">意外保障</a>
+									</li>
+									
+									<li>
+										<a href="/cfgl/">财富管理</a>
+									</li>
+									 
+								</ul>
+								 
+
+						</li>
+						
+						<li>
+							<a href="javascript:;">团体保险</a> 
+								<ul class="second_menu">
+									 
+									<li>
+										<a href="/yljkx/">医疗健康险</a>
+									</li>
+									
+									<li>
+										<a href="/gdylx/">高端医疗险</a>
+									</li>
+									
+									<li>
+										<a href="/zyywx/">意外险</a>
+									</li>
+									
+									<li>
+										<a href="/zyssx/">寿险</a>
+									</li>
+									
+									<li>
+										<a href="/jtbd/">中意家庭保单</a>
+									</li>
+									
+									<li>
+										<a href="/grjibbx/">疾病保险</a>
+									</li>
+									
+									<li>
+										<a href="/syjkx/">税优健康险</a>
+									</li>
+									 
+								</ul>
+								 
+
+						</li>
+						
+						<li>
+
+								<a href="/jycp/index.html">产品条款</a>  
+
+						</li>
+						 
+
+					</ul> 
+
+			</li>
+			
+			<li>
+				<a href="javascript:;">客户服务</a> 
+					<ul class="second_menu">
+
+						 
+						<li>
+							<a href="javascript:;">个人客户服务</a> 
+								<ul class="second_menu">
+									 
+									<li>
+										<a href="/zyfwgg/">服务公告</a>
+									</li>
+									
+									<li>
+										<a href="/zy/">服务指南</a>
+									</li>
+									
+									<li>
+										<a href="/zyywbl/">业务办理</a>
+									</li>
+									
+									<li>
+										<a href="/zycxfw/">业务查询</a>
+									</li>
+									 
+								</ul>
+								 
+
+						</li>
+						
+						<li>
+							<a href="javascript:;">团体客户服务</a> 
+								<ul class="second_menu">
+									 
+									<li>
+										<a href="/zygk/">概况</a>
+									</li>
+									
+									<li>
+										<a href="/zytttbzn/">团体投保指南</a>
+									</li>
+									
+									<li>
+										<a href="/bxhtbgfw/">团体保险服务</a>
+									</li>
+									
+									<li>
+										<a href="/zyxzdz/">下载单证</a>
+									</li>
+									
+									<li>
+										<a href="/zffw/">高端医疗服务</a>
+									</li>
+									
+									<li>
+										<a href="/xjkqk/">健康管理</a>
+									</li>
+									
+									<li>
+										<a href="/gzy/">服务指南</a>
+									</li>
+									 
+								</ul>
+								 
+
+						</li>
+						
+						<li>
+							<a href="javascript:;">意管家健康管理服务</a> 
+								<ul class="second_menu">
+									 
+									<li>
+										<a href="/ygjfwjs/">服务介绍</a>
+									</li>
+									
+									<li>
+										<a href="/ygjgjjd/">管家解读</a>
+									</li>
+									
+									<li>
+										<a href="/ygjgjzx/">管家资讯</a>
+									</li>
+									
+									<li>
+										<a href="/ygjgjgs/">管家故事</a>
+									</li>
+									
+									<li>
+										<a href="/ygjgjfw/">管家服务</a>
+									</li>
+									
+									<li>
+										<a href="/ygjsqff/">申请方法</a>
+									</li>
+									 
+								</ul>
+								 
+
+						</li>
+						
+						<li>
+							<a href="javascript:;">咨询投诉</a> 
+								<ul class="second_menu">
+									 
+									<li>
+										<a href="/wyzx/">我要咨询</a>
+									</li>
+									
+									<li>
+										<a href="/wyts/">我要投诉</a>
+									</li>
+									 
+								</ul>
+								 
+
+						</li>
+						
+						<li>
+							<a href="javascript:;">常见问题</a> 
+								<ul class="second_menu">
+									 
+									<li>
+										<a href="/uwbs/">常见问题</a>
+									</li>
+									
+									<li>
+										<a href="/Corner/">保险知识术语</a>
+									</li>
+									
+									<li>
+										<a href="/ask/">问答</a>
+									</li>
+									 
+								</ul>
+								 
+
+						</li>
+						
+						<li>
+							<a href="javascript:;">金融知识宣教专区</a> 
+								<ul class="second_menu">
+									 
+									<li>
+										<a href="/amlcol/">反洗钱宣传专栏</a>
+									</li>
+									
+									<li>
+										<a href="/Illegalraise/">预防非法集资宣传专栏</a>
+									</li>
+									
+									<li>
+										<a href="/antifraud/">反保险欺诈宣传专栏</a>
+									</li>
+									
+									<li>
+										<a href="/eliminateevil/">扫黑除恶专栏</a>
+									</li>
+									
+									<li>
+										<a href="/financialpopulariza/">金融知识普及月专栏</a>
+									</li>
+									
+									<li>
+										<a href="/zyxfzyd/">消费者权益保护</a>
+									</li>
+									
+									<li>
+										<a href="/policycase/">以案说险</a>
+									</li>
+									
+									<li>
+										<a href="/risktip/">风险提示</a>
+									</li>
+									
+									<li>
+										<a href="/cppcolumn/">3·15消保宣传专栏</a>
+									</li>
+									 
+								</ul>
+								 
+
+						</li>
+						 
+
+					</ul> 
+
+			</li>
+			
+			<li>
+				<a href="javascript:;">合作和加盟</a> 
+					<ul class="second_menu">
+
+						 
+						<li>
+							<a href="javascript:;">员工招聘</a> 
+								<ul class="second_menu">
+									 
+									<li>
+										<a href="/Goos/index.html">空缺职位</a>
+									</li>
+									
+									<li>
+										<a href="/Concept/">人才理念</a>
+									</li>
+									
+									<li>
+										<a href="/Career/">职业规划</a>
+									</li>
+									
+									<li>
+										<a href="/benefits/">薪酬福利</a>
+									</li>
+									
+									<li>
+										<a href="/development/">培训发展</a>
+									</li>
+									
+									<li>
+										<a href="/employees/">员工风采</a>
+									</li>
+									 
+								</ul>
+								 
+
+						</li>
+						
+						<li>
+
+								<a href="/jiexin/">捷信-中意借贷业务</a>  
+
+						</li>
+						
+						<li>
+
+								<a href="/zacancies/index.html">营销员招聘</a>  
+
+						</li>
+						 
+
+					</ul> 
+
+			</li>
+			
+			<li>
+				<a href="javascript:;">我的专区</a> 
+					<ul class="second_menu">
+
+						 
+						<li>
+							<a href="javascript:;">个险客户</a> 
+								<ul class="second_menu">
+									 
+									<li>
+										<a href="http://www.generalichina.com/app/">掌上中意APP</a>
+									</li>
+									
+									<li>
+										<a href="https://ecomm.generalichina.com/epos/login/show.form?view=login/login">高端客户健康管理平台</a>
+									</li>
+									
+									<li>
+										<a href="https://ecomm.generalichina.com/epos/login/show.form?view=login/selectInsurePlan">激活我的免费险</a>
+									</li>
+									
+									<li>
+										<a href="http://www.generalichina.com/FNA/">我的保障规划</a>
+									</li>
+									
+									<li>
+										<a href="https://ecomm.generalichina.com/epos/">客户登录</a>
+									</li>
+									
+									<li>
+										<a href="http://www.generalichina.com/debitauth/index.html">中意人寿保费扣款线上签约解约</a>
+									</li>
+									 
+								</ul>
+								 
+
+						</li>
+						
+						<li>
+							<a href="javascript:;">团险客户</a> 
+								<ul class="second_menu">
+									 
+									<li>
+										<a href="https://ecomm.generalichina.com/ebnsp/#/index">客户登录</a>
+									</li>
+									
+									<li>
+										<a href="http://www.generalichina.com/debitauth/index.html">中意人寿保费扣款线上签约解约</a>
+									</li>
+									 
+								</ul>
+								 
+
+						</li>
+						
+						<li>
+							<a href="javascript:;">营销员</a> 
+								<ul class="second_menu">
+									 
+									<li>
+										<a href="https://www.gconline.cn/">中意在线</a>
+									</li>
+									
+									<li>
+										<a href="https://www.gconline.cn/sis/secure/login">计划书系统</a>
+									</li>
+									 
+								</ul>
+								 
+
+						</li>
+						
+						<li>
+							<a href="javascript:;">员工专区</a> 
+								<ul class="second_menu">
+									 
+									<li>
+										<a href="/wzyapp/">"我 ● 中意"APP</a>
+									</li>
+									 
+								</ul>
+								 
+
+						</li>
+						 
+
+					</ul> 
+
+			</li>
+			
+			<li>
+				<a href="javascript:;">公开信息披露</a> 
+					<ul class="second_menu">
+
+						 
+						<li>
+							<a href="javascript:;">基本信息</a> 
+								<ul class="second_menu">
+									 
+									<li>
+										<a href="/ggk/">公司概况</a>
+									</li>
+									
+									<li>
+										<a href="/mgsy/">公司治理概要</a>
+									</li>
+									
+									<li>
+										<a href="/cpjbxxnewmy/">产品基本信息</a>
+									</li>
+									 
+								</ul>
+								 
+
+						</li>
+						
+						<li>
+
+								<a href="/ndxx/">年度信息</a>  
+
+						</li>
+						
+						<li>
+							<a href="javascript:;">重大信息</a> 
+								<ul class="second_menu">
+									 
+									<li>
+										<a href="/zdsxx/">重大事项信息</a>
+									</li>
+									
+									<li>
+										<a href="/qtzyx/">其他重要信息</a>
+									</li>
+									 
+								</ul>
+								 
+
+						</li>
+						
+						<li>
+							<a href="javascript:;">专项信息</a> 
+								<ul class="second_menu">
+									 
+									<li>
+										<a href="/gljynew/">关联交易</a>
+									</li>
+									
+									<li>
+										<a href="/gdgqnew/">股东股权</a>
+									</li>
+									
+									<li>
+										<a href="/cfnlnew/">偿付能力</a>
+									</li>
+									
+									<li>
+										<a href="/olsalenew/">互联网保险</a>
+									</li>
+									
+									<li>
+										<a href="/zjyynew/">资金运用</a>
+									</li>
+									
+									<li>
+										<a href="/xxcpnew/">新型产品</a>
+									</li>
+									
+									<li>
+										<a href="/changqiyi/">长期医疗保险</a>
+									</li>
+									 
+								</ul>
+								 
+
+						</li>
+						
+						<li>
+
+								<a href="/xyg/index.html">信息与公告</a>  
+
+						</li>
+						
+						<li>
+
+								<a href="/syylcpdy/">个人税收递延型养老年金保险</a>  
+
+						</li>
+						 
+
+					</ul> 
+
+			</li>
+			 
+
+		</ul>
+		<section class="mobile_seciont">
+			<!--客服热线-->
+			<div class="hot_main">
+				<div class="hot_tel">
+					<h1 class="">客服热线</h1>
+					<div class="hot_tel_section">
+						<p>全国客服热线及咨询投诉电话</p>
+						<a href="tel:400-888-9888">400-888-9888</a>
+						<p>团体保险客户服务热线</p>
+						<a href="tel:400-888-7555">400-888-7555</a>
+						<p>全国电话营销热线</p>
+						<a href="tel:951508">951508</a>
+					</div>
+				</div>
+				<!--中英文网站-->
+				<p class="change_lan">ENG <span><a href="http://www.generalichina.com:8080" class="fl"></a><a class="checked" href="http://www.generalichina.com/" class="fr"></a></span>中文</p>
+			</div>
+			<!--搜索框-->
+			<form action="/search.jspx">
+				<p class="btn_search">
+					<input type="text" value=""  name="q" placeholder="请输入关键词"  onfocus="if(this.value=='请输入关键词')this.value=''" onblur="if(this.value=='')this.value='请输入关键词'" />
+					<i class="iconfont icon-sousuokuangsousuo"></i>
+					<input type="submit" class="search_btn" value=""></input>
+				</p>
+			</form>
+			
+			
+		</section>
+	</div>
+
+</nav>
+
+<div class="header">
+	<!--移动导航-->
+	<div class="mobil_header">
+		<a href="#menu" class="icon_slider iconfont icon-caidan"></a>
+		<a href="/"><img class="logo_mobile" src="/r/cms/www/images/img_logo.png" alt="" /></a>
+	</div>
+	<!--pc导航-->
+	<div class="wrapper_content visible-md visible-lg">
+		<!--pclogo-->
+		<a href="/" class="pc_logo"><img src="/r/cms/www/images/img_logo.png" /></a>
+		<div class="pc_header_right">
+			<div class="pc_header_rt">
+				<div class="pc_hot_tel">客服热线
+					<ul class="pc_tel_section">
+						<li>
+							<p>全国客服热线及咨询投诉电话</p>
+							<span>400-888-9888</span>
+						</li>
+						<li>
+							<p>团体保险客户服务热线</p>
+							<span>400-888-7555</span>
+						</li>
+						<li>
+							<p>全国电话营销热线</p>
+							<span>951508</span>
+						</li>
+					</ul>
+				</div>
+				<p class="change_size"><span class="small_font_size">A</span><span class="middle_font_size">A</span><span class="big_font_size">A</span></p>
+				<a href="http://www.generalichina.com:8080"><p class="pc_change_lag">ENGLISH</p></a>
+				<div class="icon_seach">
+					<i class="iconfont icon-sousuokuangsousuo pc_btn_search"></i>
+
+					<div class="pc_search_box">
+						<form action="/search.jspx">
+							<input type="text" name="q"  value="" placeholder="请输入关键词"  onfocus="if(this.value=='请输入关键词')this.value=''" onblur="if(this.value=='')this.value='请输入关键词'"/>
+							<input type="submit" name="" id="" value="" class="pc_search_btn" />
+							<i class="iconfont icon-sousuokuangsousuo"></i>
+						</form>
+					</div>
+
+				</div>
+
+			</div>
+			<div class="menu-wrapper main_menu_wrapper">
+				<nav class="navbar yamm navbar-default " role="navigation">
+					<ul class="nav navbar-nav menu">
+						 
+
+						<li  class=" dropdown first_level_menu nav_1" >
+
+							<a class="first_nav dropdown-toggle" href="javascript:;" data-toggle="dropdown"> 关于中意 </a>
+								<ul class="dropdown-menu menu_second_part" role="menu">
+									<li class="menu_container_li wrapper_content">
+										<div class="sectond_content">
+											<ul>
+												 
+													<li  class=" second_nav" > 
+															<a class="second_title" href="/Overview/">概况</a> 
+															</li>
+
+															 
+
+												<li  class=" dropdown" > 
+														<a href="javascript:;" class="dropdown-toggle">股东</a> 
+															<ul class="dropdown-menu menu_third_part">
+															<li>
+															<div class="sectond_content">
+															<ul>
+															 
+															<li >
+
+															<a href=" /sytrq/">中油资本</a>
+															</li>
+															
+															<li >
+
+															<a href=" /ydlzl/">意大利忠利保险有限公司</a>
+															</li>
+															 
+
+															</ul>
+															</div>
+															</ul>
+
+															</li>
+
+															 
+													<li  class=" second_nav" > 
+															<a class="second_title" href="/subsidiary/">子公司</a> 
+															</li>
+
+															 
+													<li  class=" second_nav" > 
+															<a class="second_title" href="/Culture/">文化</a> 
+															</li>
+
+															 
+
+												<li  class=" dropdown" > 
+														<a href="javascript:;" class="dropdown-toggle">关爱</a> 
+															<ul class="dropdown-menu menu_third_part">
+															<li>
+															<div class="sectond_content">
+															<ul>
+															 
+															<li >
+
+															<a href=" /gajs/">关爱精神</a>
+															</li>
+															
+															<li >
+
+															<a href=" /responsibility/">企业社会责任</a>
+															</li>
+															 
+
+															</ul>
+															</div>
+															</ul>
+
+															</li>
+
+															 
+													<li  class=" second_nav" > 
+															<a class="second_title" href="/honor/">荣誉</a> 
+															</li>
+
+															 
+													<li  class=" second_nav" > 
+															<a class="second_title" href="/notepad/index.html">大事记</a> 
+															</li>
+
+															 
+
+												<li  class=" dropdown" > 
+														<a href="javascript:;" class="dropdown-toggle">新闻与公告</a> 
+															<ul class="dropdown-menu menu_third_part">
+															<li>
+															<div class="sectond_content">
+															<ul>
+															 
+															<li >
+
+															<a href=" /Media/">媒体报道</a>
+															</li>
+															
+															<li >
+
+															<a href=" /newxw/">新闻</a>
+															</li>
+															
+															<li >
+
+															<a href=" /newgg/">公告</a>
+															</li>
+															 
+
+															</ul>
+															</div>
+															</ul>
+
+															</li>
+
+															 
+													<li  class=" second_nav" > 
+															<a class="second_title" href="/ContactUs11/20181029/6470.html">联系我们</a> 
+															</li>
+
+															 
+											</ul>
+										</div>
+										<div class="right_pic">
+											<img src="/r/cms/www/images/img_nav_right1.png" alt="" />
+
+											<p>关于中意</p>
+											<a href="/Overview/index.html">查看更多</a>
+										</div>
+										</li>
+
+								</ul>
+								</li>
+
+
+
+						<li  class=" dropdown first_level_menu nav_2" >
+
+							<a class="first_nav dropdown-toggle" href="javascript:;" data-toggle="dropdown"> 保险产品 </a>
+								<ul class="dropdown-menu menu_second_part" role="menu">
+									<li class="menu_container_li wrapper_content">
+										<div class="sectond_content">
+											<ul>
+												 
+
+												<li  class=" dropdown" > 
+														<a href="javascript:;" class="dropdown-toggle">个人保险</a> 
+															<ul class="dropdown-menu menu_third_part">
+															<li>
+															<div class="sectond_content">
+															<ul>
+															 
+															<li >
+
+															<a href=" /cpsxbz/">寿险保障</a>
+															</li>
+															
+															<li >
+
+															<a href=" /cpjbbz/">疾病保障</a>
+															</li>
+															
+															<li >
+
+															<a href=" /ylbzz/">医疗保障</a>
+															</li>
+															
+															<li >
+
+															<a href=" /ywbzz/">意外保障</a>
+															</li>
+															
+															<li >
+
+															<a href=" /cfgl/">财富管理</a>
+															</li>
+															 
+
+															</ul>
+															</div>
+															</ul>
+
+															</li>
+
+															 
+
+												<li  class=" dropdown" > 
+														<a href="javascript:;" class="dropdown-toggle">团体保险</a> 
+															<ul class="dropdown-menu menu_third_part">
+															<li>
+															<div class="sectond_content">
+															<ul>
+															 
+															<li >
+
+															<a href=" /yljkx/">医疗健康险</a>
+															</li>
+															
+															<li >
+
+															<a href=" /gdylx/">高端医疗险</a>
+															</li>
+															
+															<li >
+
+															<a href=" /zyywx/">意外险</a>
+															</li>
+															
+															<li >
+
+															<a href=" /zyssx/">寿险</a>
+															</li>
+															
+															<li >
+
+															<a href=" /jtbd/">中意家庭保单</a>
+															</li>
+															
+															<li >
+
+															<a href=" /grjibbx/">疾病保险</a>
+															</li>
+															
+															<li >
+
+															<a href=" /syjkx/">税优健康险</a>
+															</li>
+															 
+
+															</ul>
+															</div>
+															</ul>
+
+															</li>
+
+															 
+													<li  class=" second_nav" > 
+															<a class="second_title" href="/jycp/index.html">产品条款</a> 
+															</li>
+
+															 
+											</ul>
+										</div>
+										<div class="right_pic">
+											<img src="/r/cms/www/images/img_nav_right2.png" alt="" />
+
+											<p>保险产品</p>
+											<a href="/cpsxbz/index.html">查看更多</a>
+										</div>
+										</li>
+
+								</ul>
+								</li>
+
+
+
+						<li  class=" dropdown first_level_menu nav_3" >
+
+							<a class="first_nav dropdown-toggle" href="javascript:;" data-toggle="dropdown"> 客户服务 </a>
+								<ul class="dropdown-menu menu_second_part" role="menu">
+									<li class="menu_container_li wrapper_content">
+										<div class="sectond_content">
+											<ul>
+												 
+
+												<li  class=" dropdown" > 
+														<a href="javascript:;" class="dropdown-toggle">个人客户服务</a> 
+															<ul class="dropdown-menu menu_third_part">
+															<li>
+															<div class="sectond_content">
+															<ul>
+															 
+															<li >
+
+															<a href=" /zyfwgg/">服务公告</a>
+															</li>
+															
+															<li >
+
+															<a href=" /zy/">服务指南</a>
+															</li>
+															
+															<li >
+
+															<a href=" /zyywbl/">业务办理</a>
+															</li>
+															
+															<li >
+
+															<a href=" /zycxfw/">业务查询</a>
+															</li>
+															 
+
+															</ul>
+															</div>
+															</ul>
+
+															</li>
+
+															 
+
+												<li  class=" dropdown" > 
+														<a href="javascript:;" class="dropdown-toggle">团体客户服务</a> 
+															<ul class="dropdown-menu menu_third_part">
+															<li>
+															<div class="sectond_content">
+															<ul>
+															 
+															<li >
+
+															<a href=" /zygk/">概况</a>
+															</li>
+															
+															<li >
+
+															<a href=" /zytttbzn/">团体投保指南</a>
+															</li>
+															
+															<li >
+
+															<a href=" /bxhtbgfw/">团体保险服务</a>
+															</li>
+															
+															<li >
+
+															<a href=" /zyxzdz/">下载单证</a>
+															</li>
+															
+															<li >
+
+															<a href=" /zffw/">高端医疗服务</a>
+															</li>
+															
+															<li >
+
+															<a href=" /xjkqk/">健康管理</a>
+															</li>
+															
+															<li >
+
+															<a href=" /gzy/">服务指南</a>
+															</li>
+															 
+
+															</ul>
+															</div>
+															</ul>
+
+															</li>
+
+															 
+
+												<li  class=" dropdown" > 
+														<a href="javascript:;" class="dropdown-toggle">意管家健康管理服务</a> 
+															<ul class="dropdown-menu menu_third_part">
+															<li>
+															<div class="sectond_content">
+															<ul>
+															 
+															<li >
+
+															<a href=" /ygjfwjs/">服务介绍</a>
+															</li>
+															
+															<li >
+
+															<a href=" /ygjgjjd/">管家解读</a>
+															</li>
+															
+															<li >
+
+															<a href=" /ygjgjzx/">管家资讯</a>
+															</li>
+															
+															<li >
+
+															<a href=" /ygjgjgs/">管家故事</a>
+															</li>
+															
+															<li >
+
+															<a href=" /ygjgjfw/">管家服务</a>
+															</li>
+															
+															<li >
+
+															<a href=" /ygjsqff/">申请方法</a>
+															</li>
+															 
+
+															</ul>
+															</div>
+															</ul>
+
+															</li>
+
+															 
+
+												<li  class=" dropdown" > 
+														<a href="javascript:;" class="dropdown-toggle">咨询投诉</a> 
+															<ul class="dropdown-menu menu_third_part">
+															<li>
+															<div class="sectond_content">
+															<ul>
+															 
+															<li >
+
+															<a href=" /wyzx/">我要咨询</a>
+															</li>
+															
+															<li >
+
+															<a href=" /wyts/">我要投诉</a>
+															</li>
+															 
+
+															</ul>
+															</div>
+															</ul>
+
+															</li>
+
+															 
+
+												<li  class=" dropdown" > 
+														<a href="javascript:;" class="dropdown-toggle">常见问题</a> 
+															<ul class="dropdown-menu menu_third_part">
+															<li>
+															<div class="sectond_content">
+															<ul>
+															 
+															<li >
+
+															<a href=" /uwbs/">常见问题</a>
+															</li>
+															
+															<li >
+
+															<a href=" /Corner/">保险知识术语</a>
+															</li>
+															
+															<li >
+
+															<a href=" /ask/">问答</a>
+															</li>
+															 
+
+															</ul>
+															</div>
+															</ul>
+
+															</li>
+
+															 
+
+												<li  class=" dropdown" > 
+														<a href="javascript:;" class="dropdown-toggle">金融知识宣教专区</a> 
+															<ul class="dropdown-menu menu_third_part">
+															<li>
+															<div class="sectond_content">
+															<ul>
+															 
+															<li >
+
+															<a href=" /amlcol/">反洗钱宣传专栏</a>
+															</li>
+															
+															<li >
+
+															<a href=" /Illegalraise/">预防非法集资宣传专栏</a>
+															</li>
+															
+															<li >
+
+															<a href=" /antifraud/">反保险欺诈宣传专栏</a>
+															</li>
+															
+															<li >
+
+															<a href=" /eliminateevil/">扫黑除恶专栏</a>
+															</li>
+															
+															<li >
+
+															<a href=" /financialpopulariza/">金融知识普及月专栏</a>
+															</li>
+															
+															<li >
+
+															<a href=" /zyxfzyd/">消费者权益保护</a>
+															</li>
+															
+															<li >
+
+															<a href=" /policycase/">以案说险</a>
+															</li>
+															
+															<li >
+
+															<a href=" /risktip/">风险提示</a>
+															</li>
+															
+															<li >
+
+															<a href=" /cppcolumn/">3·15消保宣传专栏</a>
+															</li>
+															 
+
+															</ul>
+															</div>
+															</ul>
+
+															</li>
+
+															 
+											</ul>
+										</div>
+										<div class="right_pic">
+											<img src="/r/cms/www/images/img_nav_right3.png" alt="" />
+
+											<p>客户服务</p>
+											<a href="/zy/index.html">查看更多</a>
+										</div>
+										</li>
+
+								</ul>
+								</li>
+
+
+
+						<li  class=" dropdown first_level_menu nav_4" >
+
+							<a class="first_nav dropdown-toggle" href="javascript:;" data-toggle="dropdown"> 合作和加盟 </a>
+								<ul class="dropdown-menu menu_second_part" role="menu">
+									<li class="menu_container_li wrapper_content">
+										<div class="sectond_content">
+											<ul>
+												 
+
+												<li  class=" dropdown" > 
+														<a href="javascript:;" class="dropdown-toggle">员工招聘</a> 
+															<ul class="dropdown-menu menu_third_part">
+															<li>
+															<div class="sectond_content">
+															<ul>
+															 
+															<li >
+
+															<a href=" /Goos/index.html">空缺职位</a>
+															</li>
+															
+															<li >
+
+															<a href=" /Concept/">人才理念</a>
+															</li>
+															
+															<li >
+
+															<a href=" /Career/">职业规划</a>
+															</li>
+															
+															<li >
+
+															<a href=" /benefits/">薪酬福利</a>
+															</li>
+															
+															<li >
+
+															<a href=" /development/">培训发展</a>
+															</li>
+															
+															<li >
+
+															<a href=" /employees/">员工风采</a>
+															</li>
+															 
+
+															</ul>
+															</div>
+															</ul>
+
+															</li>
+
+															 
+													<li  class=" second_nav" > 
+															<a class="second_title" href="/jiexin/">捷信-中意借贷业务</a> 
+															</li>
+
+															 
+													<li  class=" second_nav" > 
+															<a class="second_title" href="/zacancies/index.html">营销员招聘</a> 
+															</li>
+
+															 
+											</ul>
+										</div>
+										<div class="right_pic">
+											<img src="/r/cms/www/images/img_nav_right4.png" alt="" />
+
+											<p>合作和加盟</p>
+											<a href="/Goos/index.html">查看更多</a>
+										</div>
+										</li>
+
+								</ul>
+								</li>
+
+
+
+						<li  class=" dropdown first_level_menu nav_5" >
+
+							<a class="first_nav dropdown-toggle" href="javascript:;" data-toggle="dropdown"> 我的专区 </a>
+								<ul class="dropdown-menu menu_second_part" role="menu">
+									<li class="menu_container_li wrapper_content">
+										<div class="sectond_content">
+											<ul>
+												 
+
+												<li  class=" dropdown" > 
+														<a href="javascript:;" class="dropdown-toggle">个险客户</a> 
+															<ul class="dropdown-menu menu_third_part">
+															<li>
+															<div class="sectond_content">
+															<ul>
+															 
+															<li >
+
+																<a href=" http://www.generalichina.com/app/">掌上中意APP</a>
+															</li>
+															
+															<li >
+
+															<a href=" https://ecomm.generalichina.com/epos/login/show.form?view=login/login">高端客户健康管理平台</a>
+															</li>
+															
+															<li >
+
+															<a href=" https://ecomm.generalichina.com/epos/login/show.form?view=login/selectInsurePlan">激活我的免费险</a>
+															</li>
+															
+															<li >
+
+															<a href=" http://www.generalichina.com/FNA/">我的保障规划</a>
+															</li>
+															
+															<li >
+
+															<a href=" https://ecomm.generalichina.com/epos/">客户登录</a>
+															</li>
+															
+															<li >
+
+															<a href=" http://www.generalichina.com/debitauth/index.html">中意人寿保费扣款线上签约解约</a>
+															</li>
+															 
+
+															</ul>
+															</div>
+															</ul>
+
+															</li>
+
+															 
+
+												<li  class=" dropdown" > 
+														<a href="javascript:;" class="dropdown-toggle">团险客户</a> 
+															<ul class="dropdown-menu menu_third_part">
+															<li>
+															<div class="sectond_content">
+															<ul>
+															 
+															<li >
+
+															<a href=" https://ecomm.generalichina.com/ebnsp/#/index">客户登录</a>
+															</li>
+															
+															<li >
+
+															<a href=" http://www.generalichina.com/debitauth/index.html">中意人寿保费扣款线上签约解约</a>
+															</li>
+															 
+
+															</ul>
+															</div>
+															</ul>
+
+															</li>
+
+															 
+
+												<li  class=" dropdown" > 
+														<a href="javascript:;" class="dropdown-toggle">营销员</a> 
+															<ul class="dropdown-menu menu_third_part">
+															<li>
+															<div class="sectond_content">
+															<ul>
+															 
+															<li >
+
+															<a href=" https://www.gconline.cn/">中意在线</a>
+															</li>
+															
+															<li >
+
+															<a href=" https://www.gconline.cn/sis/secure/login">计划书系统</a>
+															</li>
+															 
+
+															</ul>
+															</div>
+															</ul>
+
+															</li>
+
+															 
+
+												<li  class=" dropdown" > 
+														<a href="javascript:;" class="dropdown-toggle">员工专区</a> 
+															<ul class="dropdown-menu menu_third_part">
+															<li>
+															<div class="sectond_content">
+															<ul>
+															 
+															<li >
+
+															<a href=" /wzyapp/">"我 ● 中意"APP</a>
+															</li>
+															 
+
+															</ul>
+															</div>
+															</ul>
+
+															</li>
+
+															 
+											</ul>
+										</div>
+										<div class="right_pic">
+											<img src="/r/cms/www/images/img_nav_right5.png" alt="" />
+
+											<p>我的专区</p>
+											<a href="http://www.generalichina.com/app/">查看更多</a>
+										</div>
+										</li>
+
+								</ul>
+								</li>
+
+
+
+						<li  class=" dropdown first_level_menu nav_6" >
+
+							<a class="first_nav dropdown-toggle" href="javascript:;" data-toggle="dropdown"> 公开信息披露 </a>
+								<ul class="dropdown-menu menu_second_part" role="menu">
+									<li class="menu_container_li wrapper_content">
+										<div class="sectond_content">
+											<ul>
+												 
+
+												<li  class=" dropdown" > 
+														<a href="javascript:;" class="dropdown-toggle">基本信息</a> 
+															<ul class="dropdown-menu menu_third_part">
+															<li>
+															<div class="sectond_content">
+															<ul>
+															 
+															<li >
+
+															<a href=" /ggk/">公司概况</a>
+															</li>
+															
+															<li >
+
+															<a href=" /mgsy/">公司治理概要</a>
+															</li>
+															
+															<li >
+
+															<a href=" /cpjbxxnewmy/">产品基本信息</a>
+															</li>
+															 
+
+															</ul>
+															</div>
+															</ul>
+
+															</li>
+
+															 
+													<li  class=" second_nav" > 
+															<a class="second_title" href="/ndxx/">年度信息</a> 
+															</li>
+
+															 
+
+												<li  class=" dropdown" > 
+														<a href="javascript:;" class="dropdown-toggle">重大信息</a> 
+															<ul class="dropdown-menu menu_third_part">
+															<li>
+															<div class="sectond_content">
+															<ul>
+															 
+															<li >
+
+															<a href=" /zdsxx/">重大事项信息</a>
+															</li>
+															
+															<li >
+
+															<a href=" /qtzyx/">其他重要信息</a>
+															</li>
+															 
+
+															</ul>
+															</div>
+															</ul>
+
+															</li>
+
+															 
+
+												<li  class=" dropdown" > 
+														<a href="javascript:;" class="dropdown-toggle">专项信息</a> 
+															<ul class="dropdown-menu menu_third_part">
+															<li>
+															<div class="sectond_content">
+															<ul>
+															 
+															<li >
+
+															<a href=" /gljynew/">关联交易</a>
+															</li>
+															
+															<li >
+
+															<a href=" /gdgqnew/">股东股权</a>
+															</li>
+															
+															<li >
+
+															<a href=" /cfnlnew/">偿付能力</a>
+															</li>
+															
+															<li >
+
+															<a href=" /olsalenew/">互联网保险</a>
+															</li>
+															
+															<li >
+
+															<a href=" /zjyynew/">资金运用</a>
+															</li>
+															
+															<li >
+
+															<a href=" /xxcpnew/">新型产品</a>
+															</li>
+															
+															<li >
+
+															<a href=" /changqiyi/">长期医疗保险</a>
+															</li>
+															 
+
+															</ul>
+															</div>
+															</ul>
+
+															</li>
+
+															 
+													<li  class=" second_nav" > 
+															<a class="second_title" href="/xyg/index.html">信息与公告</a> 
+															</li>
+
+															 
+													<li  class=" second_nav" > 
+															<a class="second_title" href="/syylcpdy/">个人税收递延型养老年金保险</a> 
+															</li>
+
+															 
+											</ul>
+										</div>
+										<div class="right_pic">
+											<img src="/r/cms/www/images/img_nav_right6.png" alt="" />
+
+											<p>公开信息披露</p>
+											<a href="/ggk/index.html">查看更多</a>
+										</div>
+										</li>
+
+								</ul>
+								</li>
+
+
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+	<!--pc导航end-->
+</div>
+<script>
+</script>		<div id="content">
+				<!-- banner -->
+				<div class=" clearfix swiper-container main_banner">
+					
+					<div class="swiper-wrapper">
+									<div class="swiper-slide"><img class=" banner_img" src="/u/cms/www/202202/07094841bw1s.png" alt=""></div>
+							
+								<div class="swiper-slide"><a target="_blank"  href="/newxw/20220311/9151.html"><img class=" banner_img" src="/u/cms/www/202203/111541168w47.jpg" alt="2022年3·15教育宣传周"></a></div>
+							
+								<div class="swiper-slide"><a target="_blank"  href="https://mp.weixin.qq.com/s/1hf7R4I6Oez2gxSriU0EIA"><img class=" banner_img" src="/u/cms/www/202203/1109322078a2.jpg" alt="意管家"></a></div>
+							
+								<div class="swiper-slide"><a target="_blank"  href="/syjkx/20171013/4498.html"><img class=" banner_img" src="/u/cms/www/201904/18161013vjlv.png" alt="中意岁岁无忧"></a></div>
+							
+									<div class="swiper-slide"><img class=" banner_img" src="/u/cms/www/202110/13134655shrj.jpg" alt=""></div>
+							
+						
+					</div>
+					<!-- 分页器 -->
+					<ul class="banner_pagination visible-md visible-lg">
+						<li>
+							<span><h1>中意人寿20周年</h1><p>中意二十载 迈向新征程</p></span>
+						</li>
+							 
+						<li>
+							<span><h1>2022年3·15教育宣传周</h1><p>共促消费公平 共享数字金融 </p></span>
+						</li>
+							 
+						<li>
+							<span><h1>意管家</h1><p>中意人寿健康管理服务</p></span>
+						</li>
+							 
+						<li>
+							<span><h1>中意岁岁无忧</h1><p>个税可减免的健康保险</p></span>
+						</li>
+							 
+						<li>
+							<span><h1>服务升级调研问券</h1><p>期待聆听您的服务感受</p></span>
+						</li>
+							 
+						
+						 
+					</ul>
+					<!-- 移动端分页器 -->
+					 
+				</div>
+				<div class="pagination  visible-sm visible-xs " ></div>
+				<div class="main container">
+<!--肺炎 -->
+<!--					<div class="tc">
+						
+					<div class="hot_product row">
+<div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12 col-xs-12 ">
+<img style="width:100%;" src="/u/cms/www/202002/1612773754.jpg">
+</div></div>
+-->
+					<!-- 热销产品 -->
+					<div class="tc">
+						<h2 class="hot_product_title">热销产品</h2></div>
+					<div class="hot_product row">
+<!---->
+                                     
+
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+							 
+							<div class="hot_product_01">
+								<a href="/syylaxzs/20180619/6267.html">
+									<div class="product_01_synopsis">
+										<h2>中意人寿个人税收递延型商业养老保险</h2>
+										<p>十年磨一剑&nbsp;&nbsp;让利于民&nbsp;&nbsp;惠普于民<br>实施在今朝&nbsp;&nbsp;补充养老&nbsp;&nbsp;幸福养老</p>
+										<p></p>
+
+									</div>
+									<img src="/u/cms/www/201806/201425426iwf.png" alt="中意人寿个人税收递延型商业养老保险" class="product_01_img">
+								</a>
+							</div>
+							 
+							<!-- -->
+						</div>
+                                                <!--下架商品临时修改样式
+						  
+                                                -->
+                                                  
+
+					</div>
+					<!-- 产品分类 -->
+					<div class="product_classification">
+						<div class="tc">
+							<h2 class="hot_product_title">产品分类</h2></div>
+						<ul class="product_classification_list">
+							<li>
+								<a href="/cpsxbz/index.html">
+									<img src="/r/cms/www/images/img_pro1.png"/><h2>寿险保障</h2>
+								</a>
+							</li>
+							<li>
+								<a href="/cpjbbz/index.html">
+									<img src="/r/cms/www/images/img_pro2.png" alt="" /><h2>疾病保障</h2></a>
+							</li>
+							<li>
+								<a href="/ywbzz/index.html">
+									<img src="/r/cms/www/images/img_pro3.png"/><h2>意外保障</h2></a>
+							</li>
+							<li>
+								<a href="/ylbzz/index.html">
+									<img src="/r/cms/www/images/img_pro4.png"/><h2>医疗保障</h2></a>
+							</li>
+							<!--<li>
+								<a href="/lybzz/index.html">
+									<img src="/r/cms/www/images/img_pro5.png"/><h2>旅行保障</h2></a>
+							</li>-->
+							<li>
+								<a href="/cfgl/index.html">
+									<img src="/r/cms/www/images/img_pro6.png"/><h2>财富管理</h2></a>
+							</li>
+							<!--<li>
+								<a href="/znjyy/index.html">
+									<img src="/r/cms/www/images/img_pro7.png"/><h2>子女教育</h2></a>
+							</li>
+							<li>
+								<a href="/txyll/index.html">
+									<img src="/r/cms/www/images/img_pro8.png"/><h2>退休养老</h2></a>
+							</li>-->
+							<li>
+								<a href="/yljkx/index.html">
+									<img src="/r/cms/www/images/img_pro9.png"/><h2>团体保障</h2></a>
+							</li>
+						</ul>
+						<div class="more_box">
+							<hr class="line">
+							<a href="/cpsxbz/index.html" class="more">查看更多保险产品 <i class="iconfont icon-renturn product_classification_arrow"></i></a>
+						</div>
+					</div>
+				</div>
+				<!-- 中意动态 -->
+				<div class="generalichina_dynamic">
+					<div class="tc">
+						<h2 class="hot_product_title">中意动态</h2></div>
+					<div class="container">
+						<div class="row">
+<div class="col-xs-12  dynamic_section" style="margin-bottom:20px;">
+								<video width="100%" src="/r/cms/www/images/video/cwh.mp4" controls="" preload="" autoplay="autoplay"> </video>                         
+				                               
+                                                                <div class="dynamic_text" style="position:relative;top:-5px;">
+								     <h2>闪耀山城 璀璨新生</h2>
+								     <p>中意人寿重庆分公司盛装起航</p>
+								     
+									
+								</div>
+							</div>
+                                                       <div class="col-xs-12  dynamic_section" style="margin-bottom:20px;">
+								<video  width="100%" src="/r/cms/www/images/video/train.mp4" controls preload > </video>                         
+				                               
+                                                                <div class="dynamic_text" style="position:relative;top:-5px;">
+								     <h2>在一起 更中意</h2>
+								     <p>中意人寿高铁广告实力亮相复兴号</p>
+								     
+									
+								</div>
+							</div>
+									<div class="col-xs-12 col-sm-6 col-md-6 dynamic_section">
+								<a href="/cnpc/" target="_blank"><img src="/u/cms/www/201711/16171147ywbk.jpg" alt="变形金刚系列加油卡—钢锁加油卡，震撼上市！">
+								<div class="dynamic_text">
+									<h2>变形金刚系列加油卡—钢锁加油卡，震撼上市！</h2>
+										<p>【一卡在手，全国加油】</p>
+									<p></p> 
+								</div>
+								</a>
+							</div>
+									<div class="col-xs-12 col-sm-6 col-md-6 dynamic_section">
+								<a href="/u/cms/www/202006/04180325a595.pdf" target="_blank"><img src="/u/cms/www/201704/021714090g76.jpg" alt="中意人寿VIP客户增值服务">
+								<div class="dynamic_text">
+									<h2>中意人寿VIP客户增值服务</h2>
+										<p>【个性化服务，更贴心更便捷】</p>
+									<p></p> 
+								</div>
+								</a>
+							</div>
+                                                        
+						</div>
+					</div>
+								
+						
+					<div class="generalichina_dynamic_news">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-3 visible-md visible-lg dynamic_news_img">
+									<img src="/r/cms/www/images/img_news.png" alt="" class="news_img">
+								</div>
+								<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-9 col-md-offset-0 news_list_section">
+									<span class="news_guide">
+								<i class="guide_arrow"></i>
+							</span>
+									<h3 class="news_title">
+								<span class="news_title_text">新闻与公告</span>
+								<a href="/Media/index.jhtml" class="see_more">查看更多<i class="iconfont icon-arrow_right"></i></a>
+								<hr class="news_title_line">
+							</h3> 
+									<ul class="news_list">
+								
+								
+								<li>
+											<a class="news_list_title" href="/newgg/20220402/9211.html">中意人寿保险有限公司陕西省分公司 下辖机构负责人及迁址经营许可变更公告</a>
+											<span class="news_list_date">2022-04-02</span>
+										</li>
+								
+								
+								<li>
+											<a class="news_list_title" href="/newgg/20220331/9207.html">关于中意人寿保险有限公司淄博中心支公司临淄营销服务部保险许可证换新的公告</a>
+											<span class="news_list_date">2022-03-31</span>
+										</li>
+								
+								
+								<li>
+											<a class="news_list_title" href="/newgg/20220331/9206.html">关于中意人寿保险有限公司山东省分公司济南市章丘营销服务部保险许可证换新的公告</a>
+											<span class="news_list_date">2022-03-31</span>
+										</li>
+								
+								
+								<li>
+											<a class="news_list_title" href="/newgg/20220331/9205.html">关于中意人寿保险有限公司山东省分公司保险许可证换新的公告</a>
+											<span class="news_list_date">2022-03-31</span>
+										</li>
+									 
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--探索中意-->
+				<div class=" container">
+					<div class="tc">
+						<h2 class="hot_product_title">探索中意</h2></div>
+					<ul class="row explore">
+								<li class="col-xs-12 col-sm-6">
+							<div class="expolre_section">
+								<a href="/sytrq/index.html">
+									<img src="/u/cms/www/201703/04003204914x.jpg" alt="股东方实力强劲 " />
+									<h2>股东方实力强劲  </h2>
+									<p>中油资本是中国石油天然气集团金融管理的专业化公司，与世界领先的保险服务商忠利集团强强联合</p>
+								</a>
+							</div>
+						</li>
+								<li class="col-xs-12 col-sm-6">
+							<div class="expolre_section">
+								<a href="/Overview/index.html">
+									<img src="/u/cms/www/201702/18051848d1u5.jpg" alt="分公司覆盖全国重点城市及地区" />
+									<h2>分公司覆盖全国重点城市及地区 </h2>
+									<p>目前在北京、上海、广东、江苏、深圳、辽宁、四川、陕西、
+山东、黑龙江、湖北、河南、浙江、...</p>
+								</a>
+							</div>
+						</li>
+								<li class="col-xs-12 col-sm-6">
+							<div class="expolre_section">
+								<a href="/Culture/index.html">
+									<img src="/u/cms/www/201702/15125718f9xx.jpg" alt="秉承"以客为尊"的服务理念" />
+									<h2>秉承"以客为尊"的服务理念 </h2>
+									<p></p>
+								</a>
+							</div>
+						</li>
+								<li class="col-xs-12 col-sm-6">
+							<div class="expolre_section">
+								<a href="/JoinEmployeesActivity/index.html">
+									<img src="/u/cms/www/201704/011059006jqa.jpg" alt="中意风采" />
+									<h2>中意风采 </h2>
+									<p></p>
+								</a>
+							</div>
+						</li>
+						
+						 </ul>
+
+					<div class="more_box">
+						<hr class="line" />
+						<a href="/Goos/index.html" class="more">探索更多 <i class="iconfont icon-renturn product_classification_arrow"></i></a>
+					</div>
+
+				</div>
+
+				<!--联系方式电话号码-->
+				<div class="tel_number">
+					<div class="container">
+						<ul class="row">
+							<li class="col-xs-12 col-md-3">
+								<p class="number_text">全国客服热线及咨询投诉电话</p>
+								<a href="tel:400-888-9888" class="number_num">400-888-9888</a>
+							</li>
+							<li class="col-xs-12 col-md-3">
+								<p class="number_text">团体保险客户服务热线</p>
+								<a href="tel:400-888-7555" class="number_num">400-888-7555</a>
+							</li>
+							<li class="col-xs-12 col-md-3">
+								<p class="number_text">全国电话营销热线</p>
+								<a href="tel:951508" class="number_num">951508</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!--中意电子保单APP/在线客服/关注我们/中意微博/加入我们-->
+				<div class="container">
+					<div class="row">
+						<ul class="col-xs-12 col-sm-10 col-sm-offset-1 icon_index_list">
+							<li>
+								<a href="/app/"><img class="icon_footer" src="/r/cms/www/images/icon_footer_1.png" alt="" /><span>掌上中意APP</span></a>
+							</li>
+							<li class="about_us_icon0">
+								<div class="hover_box0"></div>
+								<a class="code_title0" href="javascript:;">
+									<img class="icon_footer_wx" src="/r/cms/www/images/icon_footer_2.png" alt="" /><span>在线客服</span>
+								</a>
+								<div class="code0">
+									<img src="/r/cms/www/images/serviceol.png" alt="" />
+									
+								</div>
+							</li>
+							<li class="about_us_icon">
+								<div class="hover_box"></div>
+								<a class="code_title" href="javascript:;">
+									<img class="icon_footer_wx" src="/r/cms/www/images/icon_footer_3.png" alt="" /><span>关注我们</span>
+								</a>
+								<div class="code">
+									<img src="/r/cms/www/images/img_code.png" alt="" />
+									<p>扫描二维码关注</p>
+								</div>
+							</li>
+							<!--<li>
+								<a href="http://weibo.com/gclife"><img class="icon_footer" src="/r/cms/www/images/icon_footer_4.png" alt="" /><span>中意微博</span></a>
+							</li>-->
+							<li>
+								<a href="/Goos/index.html"><img class="icon_footer" src="/r/cms/www/images/icon_footer_5.png" alt="" /><span>加入我们</span></a>
+							</li>
+                                                         <li id="my_zoon" class="hidden-md hidden-lg">
+								<img class="icon_footer" src="/r/cms/www/images/icon_zone.png" alt="" /><span>我的专区</span>
+							</li>
+
+						</ul>
+					</div>
+				</div> 
+				<!--footer-->
+<div class="container  ">
+					<div class="row">
+						<div class="col-xs-12">
+							<div class="footer">
+								<p class="footer_logo"><a href="/"><img src="/r/cms/www/images/img_logo.png" alt="" /></a></p>
+								<p class="copyright">版权所有 © 2002 - 2019 中意人寿保险有限公司 <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1257959340'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/z_stat.php%3Fid%3D1257959340%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script> 本网站支持IPv6
+</p>
+								<ul class="menu_footer">
+
+									 <li class="tr">
+										<a href="/sitemapnew/index.html">网站地图</a>
+									</li>
+
+									<li class="tl">
+										<a href="/Useterm/index.html">使用条款</a>
+									</li>
+									<li class="tr">
+										<a href="/Privacy/index.html">隐私声明</a>
+									</li>
+									<li class="tl">
+										<a href="/ContactUs11/20181029/6470.html">联系我们</a>
+									</li>
+									<li class="tr">
+										京公网安备110401500016号
+									</li>
+									<li class="tl">
+										<a href="http://www.beianbeian.com/beianxinxi/14ad49d5-3e28-4fef-9e9c-5be9d5461dbb.html" target="_blank">京ICP备08008415号</a>
+									</li>
+								</ul>
+                                                                <div style="text-align: center;margin-top: 10px;">保险公司不得违规销售非保险金融产品，请勿参与非法集资。</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+						
+			</div>
+		</div>
+		<script src="/r/cms/www/js/jquery-1.12.4.min.js"></script>
+		<script type="text/javascript" src="/r/cms/www/js/device.js"></script>
+		<script type="text/javascript" src="/r/cms/www/js/mian_device.js"></script>
+		<script type="text/javascript" src="/r/cms/www/js/jquery.mmenu.js"></script>
+		<script type="text/javascript" src="/r/cms/www/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="/r/cms/www/js/idangerous.swiper2.7.6.min.js"></script>
+		<script type="text/javascript" src="/r/cms/www/js/main.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				//手机端侧导航
+				$('nav#menu').mmenu();
+				var API = $("nav#menu").data("mmenu");
+				$(window).resize(function() {
+					if($(window).width() > 992) {
+						API.close();
+					}
+				});
+				$(document).ready(function() {
+					$(document).off('click.bs.dropdown.data-api');
+				});
+				//jq结束
+			});
+				window.onload = function() {
+				//banner轮播
+				var bannerSwiper = new Swiper('.swiper-container', {
+						loop: true,
+						speed: 1000,
+						autoplay: 2000, 
+						 pagination: '.pagination',
+						 paginationClickable: true,
+						 onSlideChangeStart: function(swiper){
+      					          if(swiper.activeIndex==6){
+                                            swiper.activeIndex=1;
+                                            $(".banner_pagination  li").eq(swiper.activeIndex-1).addClass('pagination_active').siblings().removeClass('pagination_active');
+                                            if(swiper.activeIndex==1){
+                                                 swiper.activeIndex=6;
+                                             }
+                                         }
+      		 
+      					
+      					$(".banner_pagination  li").eq(swiper.activeIndex-1).addClass('pagination_active').siblings().removeClass('pagination_active')
+    				}
+					})
+					//首页banner轮播
+					$(".banner_pagination  li").each(function(index) {
+				$(this).attr('index', index)
+			})
+				$('.banner_pagination li').eq(0).addClass('pagination_active');
+				$('.banner_pagination li').hover(function(e) {
+					e.preventDefault()
+				$(".banner_pagination  .pagination_active").removeClass('pagination_active')
+				$(this).addClass('pagination_active')
+				bannerSwiper.swipeTo($(this).attr('index'))
+					
+					
+					/*var ind = $(this).index();
+					bannerSwiper.slideTo(ind, 1000, false);
+					$(this).addClass('pagination_active').siblings().removeClass('pagination_active');*/
+				});
+				/*$('.banner_pagination').mousedown(function(event) {
+					event.stopPropagation();
+				});*/
+				$('.swiper-container').height($('.swiper-slide').eq(0).find('img').height())
+					window.onresize=function(){
+			 
+						 
+			$('.swiper-container').height($('.swiper-slide').eq(0).find('img').height())
+			 
+			
+			}
+			$("#my_zoon").click(function(){
+					$("#mm-m0-p15").removeClass('mm-hidden').addClass('mm-opened');
+					$('.icon_slider').click();
+				})
+			}
+		</script>
+
+	</body>
+
+</html>

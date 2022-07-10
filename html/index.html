@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="layui-v2.6.8/layui/css/layui.css">
+    <script src="layui-v2.6.8/layui/layui.js"></script>
+    <script src="base64.js"></script>
+    <script src="jq.js"></script>
+    <script src="jq-csv.js"></script>
+    <script src="echarts-5.2.2.js"></script>
+    <script src="xm-select/xm-select.js"></script>
+    <title>IP关联情报集成工具</title>
+</head>
+<body>
+    <!-- 操作区域 -->
+    <div style="    position: absolute;
+    top: 0px;
+    height: 45px;
+    left: 0px;
+    right: 0px;
+    padding-top: 5px;">
+       
+
+        <div style="display:inline-block;display: inline-block;
+        position: absolute;
+        top: 5px;
+        left: 5px;">
+            <button class="layui-btn layui-btn-primary" onclick="add_ip()">新增IP</button>
+        </div>
+        
+        <div style="display:inline-block;display: inline-block;
+        position: absolute;
+        top: 5px;
+        left: 90px;">
+            <input id="like_ip" type="text" name="title" required  lay-verify="required" placeholder="IP地址模糊查询" autocomplete="off" class="layui-input" style="    width: 200px;display: inline-block;">
+        </div>
+        
+        <div style="display:inline-block;display: inline-block;
+        position: absolute;
+        top: 5px;
+        left: 297px;">
+            <div id="select_tool" style="display:inline-block; width:200px"></div>
+        </div>
+
+        <div style="display:inline-block;display: inline-block;
+        position: absolute;
+        top: 5px;
+        left: 505px;">
+            <input id="like_data" type="text" name="title" required  lay-verify="required" placeholder="结果数据模糊查询" autocomplete="off" class="layui-input" style="    width: 200px;display: inline-block;">
+        </div>
+        
+        
+        <div style="display:inline-block;display: inline-block;
+        position: absolute;
+        top: 5px;
+        left: 712px;">
+            <button class="layui-btn layui-btn-primary" onclick="search_data(1,10)">搜索</button>
+        </div>
+        
+
+        
+        <div style="display:inline-block;display: inline-block;
+        position: absolute;
+        top: 5px;
+        left: 785px;">
+            <button class="layui-btn layui-btn-primary" onclick="download_page_data()">下载数据</button>
+        </div>
+        
+        
+        <!-- <script type="text/javascript" src="./xm-select.js"></script> -->
+        <!-- <script type="text/javascript" src="./static/docs.js"></script> -->
+
+        <!-- html += '            <label class="layui-form-label">任务名称</label>'
+        html += '            <div class="layui-input-block">'
+        html += '                <input id="add_task_task_name" type="text" name="title" lay-verify="title" autocomplete="off" placeholder="请输入任务名称" class="layui-input">'
+        html += '            </div>' -->
+    </div>
+    <!-- 进度展示 -->
+    <div id="progress_id" style="
+    position: absolute;
+    top: 50px;
+    height: 50px;
+    left: 0px;
+    white-space: nowrap;
+    overflow-x: auto;
+    right: 0px;">
+
+        
+    <div style="display: inline-block;height: 50px;">
+        <table style="height: 50px;" id="">
+            <tbody style="border:2px solid #888;">
+                <tr>
+                    <td rowspan="2" style="font-size: 18px;border:1px solid #ccc;">全端口扫描</td>
+                    <td style="border:1px solid #ccc;">已完成50个</td>
+                    <td style="border:1px solid #ccc;">共有100个</td>
+                </tr>
+                <tr>
+                    <td style="border:1px solid #ccc;">正进行10个</td>
+                    <td style="border:1px solid #ccc;">未进行40个</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+        
+     
+
+    </div>
+    <!-- 展示区域 -->
+    <div style="    position: absolute;
+    top: 100px;
+    bottom: 50px;
+    left: 0px;
+    right: 0px;
+    overflow: auto;">
+        <form class="layui-form" action="" lay-filter="example">
+            <table id="table" ></table>
+        </form>
+    </div>
+    <!-- 分页区域 -->
+    <div style="    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 50px;
+    text-align: center;">
+        <!-- IP数量:<span id="ip_count">0</span>个    -->
+        <div id="test1" style="display: inline-block;"></div>
+    </div>
+    <script>
+
+
+        
+
+        var form
+        var element
+        var upload
+        var table
+        var laypage
+        var select_tool
+        // var xmSelect
+        // layui.extend({
+            // index: 'lib/index', //主入口模块
+            // xmSelect: "xm-select" 
+        // })
+        layui.use(['laypage','upload','jquery','element','layer', 'form','table'], function(){
+            var layer = layui.layer;
+        //   ,form = layui.form
+            element = layui.element;
+            laypage = layui.laypage;
+            laypage.render({
+                elem: 'test1' //注意，这里的 test1 是 ID，不用加 # 号
+                ,count: 50 //数据总数，从服务端得到
+            });
+            // $ = layui.$;
+            form = layui.form;
+            upload = layui.upload;
+
+            table = layui.table;
+
+            // xmSelect = layui.xmSelect
+            
+
+
+            var show_datas = []
+            table.render({
+                elem: '#table'
+                ,id:'table'
+                ,limit:10000
+                ,page: true
+                ,cols: [[ //表头
+                // {type:'checkbox'},
+                {field: 'id', title: 'ID', width:80, sort: true}
+                ,{field: 'ip', title: 'IP',width:150, sort: true}
+                ,{field: 'port', title: 'PORT',width:100, sort: true}
+                ,{field: 'name', title: '名称', width:200, sort: true}
+                ,{field: 'data', title: '数据', sort: true}
+                // ,{field: 'operation', title: '操作',width:200, toolbar: '#barDemo'}
+                ]]
+                // ,data:[{'id':1,'company_name':'12'}]
+                // ,data: data['message']
+                ,data: show_datas
+            });
+        
+        })
+
+        
+
+        
+
+        function add_ip(){
+            // # {
+            // #     task_name: 
+            // #     companys:[],
+            // #     domains:[],
+            // #     subdomains:[],
+            // #     ips:[],
+            // #     run_type: 1表示自动执行 0表示手动执行
+            // # }
+            var html = ''
+            html += '<div id="add_task_html">'
+            // html += '    <form class="layui-form" action="" lay-filter="add_task">'
+            html += '        <div>'
+            html += '            <div class="layui-row layui-col-space1">'
+            html += '                <div class="layui-col-md3">'
+            html += '                    <div class="layui-form-item layui-form-text">'
+            html += '                        <label class="layui-form-label">IP列表</label>'
+            html += '                        <div class="layui-input-block">'
+            html += '                        <textarea id="add_ips" placeholder="请输入内容" class="layui-textarea" style="height:700px;width:170px;    margin-right: 50px;"></textarea>'
+            html += '                        </div>'
+            html += '                    </div>'
+            html += '                </div>'
+            html += '            </div>'
+            html += '        </div>'
+            // html += '    </form>'
+            html += '</div>'
+            
+            layer.open({
+                type: 1
+                // ,offset: 2 //具体配置参考：http://www.layui.com/doc/modules/layer.html#offset
+                ,id: 'layerDemo' //防止重复弹出
+                ,content: html
+                ,btn: ['提交','关闭全部']
+                ,btnAlign: 'c' //按钮居
+                ,shade: 0 //不显示遮罩
+                ,yes: function(){
+                    
+                    var ips = document.getElementById("add_ips").value.split('\n').filter(function(ip){return ip.length > 0});
+                    
+                    // 任务名称不能为空，4个参数至少要有一个，操作类型不能为空
+                    if (ips.length == 0 ){
+                        layer.msg('ip不能为空');
+                        return
+                    }
+
+                    send('add_ip',{
+                        'ips':ips
+                    }
+                    ,function(data){
+                        
+                        if (data['state'] == 'fail'){
+                            layer.msg(data['message'])
+                        }else if (data['state'] == 'success'){
+                            layer.msg('添加成功')
+                        }
+                    },function(e){
+                        
+                        
+                    })
+                }
+                ,btn1: function(){
+                    layer.closeAll();
+                }
+            });
+        }
+        var before_ip_count = 0
+
+
+        var before_tool_uuids = []
+
+        function search_data(page_number,page_ip_number){
+            var like_ip = $("#like_ip").val()
+            var like_data = $("#like_data").val()
+            var select_tool_values = select_tool.getValue()
+            var tool_uuids = []
+            before_tool_uuids = []
+            for (const index in select_tool_values) {
+                tool_uuids.push(select_tool_values[index]['value'])
+                before_tool_uuids.push(select_tool_values[index]['value'])
+            }
+
+            send('check_data',{
+                'page_number':page_number,
+                'ip_like_val':like_ip,
+                'data_like_val':like_data,
+                'tool_uuids':tool_uuids,
+                'page_ip_number':page_ip_number
+            }
+            ,function(data){
+                
+                if (data['state'] == 'fail'){
+                    layer.msg(data['message'])
+                }else if (data['state'] == 'success'){
+                    var infos = data['message']['datas']
+                    
+                    var show_datas = []
+                    var _index = 1
+                    var ind = 1
+                    for (const index in infos) {
+                        var info = infos[index]
+                        
+                        var ip = info['ip']
+                        var ip_datas = info['ip_datas']
+                        for (const ip_datas_index in ip_datas) {
+                            var ip_data = ip_datas[ip_datas_index]
+                            var name = ip_data['name']
+                            var data = ip_data['data']
+
+                            if(!data){
+                                data = ''
+                            }
+                            if(typeof data == 'object'){
+                                // console.log(data)
+                            }
+                            try {
+                                // alert(data)
+                                data = JSON.stringify(JSON.parse(data))
+                            } catch (error) {
+                                // alert(data)
+                                try {
+                                    // data = eval("'"+ data +"'")
+                                } catch (error) {
+                                    
+                                }
+                            }
+
+                            data = "<xmp style='white-space:inherit;margin: 0px;'>" + data + "</xmp>"
+                            if(ip_data['uuid'].length > 0){
+                                data = data + "<button type='button' onclick=show_content('"+ip_data['uuid']+"')>查看全部内容</button>"
+                            }
+
+                            show_datas.push({
+                                'index':_index,
+                                'id':ind,
+                                'ip':ip,
+                                'port':'',
+                                'name':name,
+                                'data':data
+                            })
+                            _index+=1
+                        }
+                        var port_datas = info['port_datas']
+                        for (const port_datas_index in port_datas) {
+                            var port_data = port_datas[port_datas_index]
+                            var port = port_data['port']
+                            var name = port_data['name']
+                            var data = port_data['data']
+                            var service = port_data['service']
+                            if(!data){
+                                data = ''
+                            }
+                            try {
+                                data = JSON.stringify(JSON.parse(data))
+                            } catch (error) {
+                                try {
+                                    // data = eval("'"+ data +"'")
+                                } catch (error) {
+                                    
+                                }
+                            }
+
+                            data = "<xmp style='white-space:inherit;margin: 0px;'>" + data + "</xmp>"
+                            if(port_data['uuid'].length > 0){
+                                data = data + "<button type='button' onclick=show_content('"+port_data['uuid']+"')>查看全部内容</button>"
+                            }
+
+                            show_datas.push({
+                                'index':_index,
+                                'id':ind,
+                                'ip':ip,
+                                'port':port+( service!= "unknown" ? "("+service+")" : ""),
+                                'name':name,
+                                'data':data
+                            })
+                            _index+=1
+                            // ind += 1
+                        }
+                        ind += 1
+                    }
+
+                    table.render({
+                        elem: '#table'
+                        ,id:'table'
+                        ,limit:10000
+                        ,cols: [[ //表头
+                        {type:'checkbox'}
+                        ,{field: 'index', title: '序号', width:80, sort: true}
+                        ,{field: 'id', title: 'ID', width:80, sort: true}
+                        ,{field: 'ip', title: 'IP',width:150, sort: true}
+                        ,{field: 'port', title: 'PORT',width:130, sort: true}
+                        ,{field: 'name', title: '工具名称', width:200, sort: true}
+                        ,{field: 'data', title: '数据', sort: true}
+                        // ,{field: 'operation', title: '操作',width:200, toolbar: '#barDemo'}
+                        ]]
+                        ,data: show_datas
+                    });
+                }
+            },function(e){
+                
+                
+            })
+            
+        }
+
+        // 下载选中的数据
+        function download_page_data(){
+            
+
+            var checkStatus = table.checkStatus("table")
+            var data = checkStatus.data;
+            if(data.length == 0){
+                layer.msg("请选择数据")
+                return
+            }
+            // console.log(data)
+            var str = "";
+            str = "序号,ID,IP,PORT,工具名称,数据"
+            str += '\n'
+            for (const index in data) {
+                var info = data[index]
+                // console.log(info)
+                for (const key in info) {
+                    // console.log(key)
+                    // if(key.indexOf('uuid') != -1){
+                    //     continue
+                    // }
+                    // return
+                    var message = info[key]
+                    // console.log(message)
+                    // if(typeof message == 'string' && message.indexOf('已完成') != -1){
+                    //     message = '已完成'
+                    // }else if(typeof message == 'string' && message.indexOf('未进行') != -1){
+                    //     message = '未进行'
+                    // }
+                    if(typeof message == 'string' && message.indexOf('"') != -1){
+                        // console.log(111)
+                        message = '"'+message.replaceAll('"','""')+'"'
+                    }
+                    else if(typeof message == 'string' && message.indexOf(",") != -1){
+                        // console.log(222)
+                        message = '"'+message+'"'
+                    }
+                    // console.log('------message')
+                    // console.log(message)
+                    // console.log(typeof message == 'string')
+
+                    if(typeof message == 'string' && str.indexOf("<xmp style='white-space:inherit;margin: 0px;'>") != -1 && str.indexOf("</xmp>") != -1){
+                        message = message.replaceAll("<xmp style='white-space:inherit;margin: 0px;'>","")
+                        message = message.replaceAll("</xmp>","")
+                    }
+                    // console.log(message)
+                    
+                    str += message + ','
+                }
+                str += '\n'
+            }
+            // console.log(str)
+
+            
+            
+            var csv = "data:text/csv;charset=utf-8,\ufeff" + encodeURIComponent(str);
+            var link = document.createElement("a");
+            link.setAttribute("href", csv);
+            link.setAttribute("download", "IP关联情报数据_"+new Date().getTime() + ".csv");//文件名
+            link.click();//下载文件
+        }
+
+        // 显示全部内容
+        function show_content(uuid){
+
+            send('show_content',{
+                'uuid':uuid
+            }
+            ,function(data){
+                
+                if (data['state'] == 'fail'){
+                    layer.msg(data['message'])
+                }else if (data['state'] == 'success'){
+                    var data = data['message']
+                    if(data['data']){
+                        data['data'] = JSON.parse(data['data'])
+                    }
+                    var data_str = JSON.stringify(data,null,2)
+                    // console.log(data_str)
+                    layer.open({
+                        type: 1
+                        // ,offset: 2 //具体配置参考：http://www.layui.com/doc/modules/layer.html#offset
+                        ,id: 'layerDemo' //防止重复弹出
+                        ,content: '<div style="padding-left: 20px;padding-right: 20px;"><xmp style="white-space: normal;">' +data_str+ '</xmp></div>'
+                        ,btn: ['关闭']
+                        ,btnAlign: 'c' //按钮居
+                        ,shade: 0.3 //不显示遮罩
+                        ,area:['800px','700px']
+                        ,yes: function(){
+                            layer.closeAll();
+                        }
+                    });
+                }
+            },function(e){
+                
+                
+            })
+        }
+
+        
+        // 加载进度
+        function progress(){
+
+            send_no('progress',{
+                'TAG':"DDV"
+            }
+            ,function(data){
+                
+                if (data['state'] == 'fail'){
+                    layer.msg(data['message'])
+                }else if (data['state'] == 'success'){
+                    var progress_datas = data['message']['progress']
+                    
+                    var progress_html = ""
+                       
+                    for (const index in progress_datas) {
+                        var progress_data = progress_datas[index]
+
+                        progress_html += '    <div style="display: inline-block;height: 50px;">'
+                        progress_html += '        <table style="height: 50px;">'
+                        progress_html += '            <tbody style="border:2px solid #888;">'
+                        progress_html += '                <tr>'
+                        progress_html += '                    <td rowspan="2" style="font-size: 18px;border:1px solid #ccc;padding-left:5px;padding-right:5px">'+progress_data['name']+'</td>'
+                        progress_html += '                    <td style="border:1px solid #ccc;padding-left:5px;padding-right:5px">已完成'+progress_data['done']+'个</td>'
+                        progress_html += '                    <td style="border:1px solid #ccc;padding-left:5px;padding-right:5px">共有'+progress_data['total']+'个</td>'
+                        progress_html += '                </tr>'
+                        progress_html += '                <tr>'
+                        progress_html += '                    <td style="border:1px solid #ccc;padding-left:5px;padding-right:5px">正进行'+progress_data['ing']+'个</td>'
+                        progress_html += '                    <td style="border:1px solid #ccc;padding-left:5px;padding-right:5px">未进行'+progress_data['none']+'个</td>'
+                        progress_html += '                </tr>'
+                        progress_html += '            </tbody>'
+                        progress_html += '        </table>'
+                        progress_html += '    </div>'
+                        
+                    }
+
+                    $("#progress_id").empty().append(progress_html)
+
+                    var tool_infos = data['message']['tool_infos']
+                    var select_tool_datas = []
+                    for (const index in tool_infos) {
+                        var tool_info = tool_infos[index]
+                        var selected = false
+                        if(before_tool_uuids.indexOf(tool_info['uuid']) != -1){
+                            selected = true
+                        }
+                        select_tool_datas.push(
+                            {name: tool_info['name'], value: tool_info['uuid'],selected:selected}
+                        )
+                    }
+
+                    select_tool = xmSelect.render({
+                        el: '#select_tool', 
+                        data: select_tool_datas
+                    })
+
+                    var count = data['message']['count']
+                    $("#ip_count").html(count)
+                    if(before_ip_count != count){
+                        before_ip_count = count
+                        // laypage.render({
+                        //     elem: 'test1' //注意，这里的 test1 是 ID，不用加 # 号
+                        //     ,count:  count//数据总数，从服务端得到
+                        //     ,jump: function(obj, first){
+                        //         //obj包含了当前分页的所有参数，比如：
+                        //         search_data(obj.curr)
+                        //     }
+                        // });
+
+                        laypage.render({
+                            elem: 'test1'
+                            ,count: count
+                            ,limits: [10, 20, 30, 40, 50, 100,9999999999]
+                            ,layout: ['count', 'prev', 'page', 'next', 'limit', 'refresh', 'skip']
+                            ,jump: function(obj){
+                                // console.log(obj)
+                                search_data(obj.curr, obj.limit)
+                            }
+                        });
+
+
+                    }
+                }
+            },function(e){
+                
+            })
+        }
+        
+        progress()
+
+        // 每过1分钟刷新一下进度情况
+        setInterval( () => {
+            progress()
+        },60000)
+        
+
+        var index1 = layer.load(2, {
+                shade: [0.1,'#000'],
+            });
+
+
+        // 发送请求
+        function send(api,data,succ,err){
+            var data_base64 = Base64.encode(JSON.stringify(data)); 
+            var params = new URLSearchParams();
+            params.append('api',api);
+            params.append('data',data_base64);
+
+            var index = layer.load(2, {
+                shade: [0.1,'#000'],
+            });
+
+            $.ajax({
+                type: "post",
+                contentType: "application/x-www-form-urlencoded",
+                dataType: 'json',
+                url: '/web/index',
+                data: params.toString(),
+                beforeSend : function(request) {
+                    request.setRequestHeader("Authorization", localStorage.getItem('token'));
+                },
+                success: function (data) {
+                    succ(data)
+                    layer.close(index);
+                    layer.close(index1);
+                },
+                complete: function (XMLHttpRequest, textStatus) {
+                },
+                error: function (e) {
+                    if(e.status == 401){
+                        window.location.href = "/html/login.html";
+                    }
+                    layer.close(index);
+                    layer.close(index1);
+
+                }
+            });
+        }
+        function send_no(api,data,succ,err){
+            var data_base64 = Base64.encode(JSON.stringify(data)); 
+            var params = new URLSearchParams();
+            params.append('api',api);
+            params.append('data',data_base64);
+
+            $.ajax({
+                type: "post",
+                contentType: "application/x-www-form-urlencoded",
+                dataType: 'json',
+                url: '/web/index',
+                data: params.toString(),
+                beforeSend : function(request) {
+                    request.setRequestHeader("Authorization", localStorage.getItem('token'));
+                },
+                success: function (data) {
+                    succ(data)
+                },
+                complete: function (XMLHttpRequest, textStatus) {
+                },
+                error: function (e) {
+                    if(e.status == 401){
+                        window.location.href = "/html/login.html";
+                    }
+
+                }
+            });
+        }
+
+        
+    </script>
+</body>
+</html>
